@@ -144,4 +144,4 @@ function Chatbot() {
   );
 }
 
-export default chatbot;
+export default Chatbot;
