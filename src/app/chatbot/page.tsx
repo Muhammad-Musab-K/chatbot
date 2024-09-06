@@ -12,7 +12,7 @@ import { SendIcon, Triangle } from '@/components/icon/SendIcon';
 import React, { useState } from 'react'
 import { ThreeDots } from 'react-loader-spinner'
 
-function chatbot() {
+function Chatbot() {
   const [messages, setMessages] = useState<{ sender: string; message: string; error?: boolean }[]>([]);
   const [inputMessage, setInputMessage] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
